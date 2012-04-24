@@ -9,9 +9,6 @@ namespace TestDropdownList.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-
         public static IList<Person> _persons = new List<Person>()
         {
             new Person{ PersonId = 1, PersonName = "Michael", CityCode = "MNL" },
